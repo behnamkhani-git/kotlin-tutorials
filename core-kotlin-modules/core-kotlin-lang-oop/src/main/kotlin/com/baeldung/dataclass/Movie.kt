@@ -1,3 +1,3 @@
 package com.baeldung.dataclass
 
-data class Movie(val name: String, val studio: String, var rating: Float)
+data class Task( var id: Int, var description: String, var priority: Int )
